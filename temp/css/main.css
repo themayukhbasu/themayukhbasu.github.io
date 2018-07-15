@@ -259,6 +259,32 @@ blockquote {
 	margin: 0 10%;
 }
 
+.links {
+	margin-left: 10%;
+	margin-right: 5%;
+}
+.links .section-body {
+	margin-left: 30%;
+	margin-top: 20px;
+}
+
+.links .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.links a {
+	transition: all 0.4s;
+}
+
+.links a:hover{
+	text-decoration: underline;
+	color: #333;
+}
+
 .contact {
 	margin: auto;
 }
@@ -379,5 +405,29 @@ blockquote {
 	border: 0;
 	width: 50%;
 	margin: 5px;
+}
+
+.gallery{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+div.gallery-item {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery-item:hover {
+}
+
+div.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
