@@ -1,0 +1,433 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	text-decoration: none;
+  	color: #18BC9C;
+}
+
+.space30 {
+	padding: 30px;
+}
+.space50 {
+	padding: 50px;
+}
+
+nav {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 2000;
+}
+
+.left-side {
+	float: left;
+}
+
+.right-side {
+	float: right;
+}
+
+.navbar{
+	width: 99%;
+	margin: 0;
+    padding: 10px;
+    overflow: hidden;
+	background-color: #2C3E50;
+}
+
+.navbar-menu {
+	margin-right: 20px;
+}
+
+.navbar-brand a {
+	letter-spacing: 1px;
+	font-size: 24px;
+	color: #fff;
+	line-height: 20px;
+}
+
+.nav li {
+	line-height: 20px;
+	display: inline;
+	color: #fff;
+	margin: 5px;
+	padding:10px 20px;
+}
+
+.nav li.active {
+	color: #fff;
+	background: #18BC9C;
+}
+
+.nav li.active a:hover {
+	color: #fff;
+	background: #18BC9C;
+}
+
+.menu-li a {
+	transition: all 0.5s;
+	font-size: 15px;
+	color: #fff; 
+}
+
+.menu-li a:hover {
+	color: #18BC9C;
+}
+
+.sidenav {
+	height: 100%;
+    width: 135px;
+    position: fixed;
+    z-index: 1;
+    top: 55px;
+    background: #364d63;
+    overflow-x: hidden;
+    padding: 20px 0;
+}
+
+.sidenav a {
+    padding: 10px 8px 15px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #18BC9C;
+}
+
+.content {
+	margin-left: 10%;
+}
+
+/* Table */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+header {
+	text-align: center;
+	background: #18BC9C;
+	color: #fff;
+}
+
+#maincontent {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.img-responsive {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/* To give a pattern to the hr */
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  max-height: 25px;
+  margin: auto;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "*";
+  display: inline-block;
+  position: relative;
+  top: -0.4em;
+  font-size: 4em;
+  height: 30px;
+}
+
+hr.star-light {
+  border-color: white;
+}
+
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+
+header .intro-text .name {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header .intro-text .highlight-skills {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section {
+  padding: 100px 0;
+  color: #333;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+
+section .section-head {
+	text-align: center;
+}
+
+section .section-head h2 {
+	margin: 12px;
+	text-transform: uppercase;
+}
+
+.lead {
+	color: #0066ff;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+
+.about {
+	margin: 0 10%;
+}
+
+.links {
+	margin-left: 10%;
+	margin-right: 5%;
+}
+.links .section-body {
+	margin-left: 30%;
+	margin-top: 20px;
+}
+
+.links .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.links a {
+	transition: all 0.4s;
+}
+
+.links a:hover{
+	text-decoration: underline;
+	color: #333;
+}
+
+.contact {
+	margin: auto;
+}
+
+.contact .section-body {
+	margin: auto;
+	width: 50%;
+}
+
+.contact .section-body .divTable {
+	margin-left: 15%;
+	border: 0;
+}
+
+.contact .section-body .divTableCell, .divTableHead {
+	border: 0;
+	padding: 10px 25px; 
+	font-size: 18px;
+}
+
+.experience {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+
+
+.experience .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.skills {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.skills .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.technical {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.technical .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.projects {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.projects .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.education {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.education .section-body {
+	margin-left: 10%;
+}
+
+.certificates{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.certificates .section-body {
+	margin-left: 10%;
+}
+
+.certificates .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.hobbies{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.hobbies .section-body .divTable {
+	margin-top: 20px;
+	margin-left: 10%;
+	border: 0;
+}
+
+.hobbies .section-body .divTableCell, .divTableHead {
+	border: 0;
+	padding: 10px 25px; 
+	font-size: 18px;
+}
+
+.references {
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.references .section-body{
+	margin-left: 15%;
+}
+
+.references .section-body .divTableCell, .divTableHead {
+	border: 0;
+	width: 50%;
+	margin: 5px;
+}
+
+.gallery{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+div.gallery-item {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery-item:hover {
+}
+
+div.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
